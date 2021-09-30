@@ -28,11 +28,14 @@ public class TC004 extends Browser {
 		action.moveToElement(recommended).perform();
 		a.hightolow().click();
 		Log.info("Sorted from high to low");
-		Thread.sleep(1000);
+		Thread.sleep(2000);
+		WebElement compare1 = a.hover1();
+		action.moveToElement(compare1).perform();
+		Thread.sleep(2000);
 		a.product1().click();
 		Log.info("product1 is selected");
-		WebElement compare = a.hover();
-		action.moveToElement(compare).perform();
+		WebElement compare2 = a.hover2();
+		action.moveToElement(compare2).perform();
 		Thread.sleep(1000);
 		a.product2().click();
 		Log.info("Product2 is selected");

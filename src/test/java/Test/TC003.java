@@ -24,7 +24,7 @@ public class TC003 extends Browser{
 		Log.info("TC003 is running");
 		WebElement dining = a.dining();
 		action.moveToElement(dining).perform();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		a.glassware().click();
 		a.product1().click();
 		Log.info("product1 is selected");
@@ -32,6 +32,7 @@ public class TC003 extends Browser{
 		Iterator<String> it = abc.iterator();
 		driver.switchTo().window(it.next());
 		driver.switchTo().window(it.next());
+		Thread.sleep(1000);
 		a.addToCart().click();
 		Log.info("product1 is added in cart");
 		a.continueShopping().click();
@@ -43,6 +44,7 @@ public class TC003 extends Browser{
 		driver.switchTo().window(it1.next());
 		driver.switchTo().window(it1.next());
 		driver.switchTo().window(it1.next());
+		Thread.sleep(1000);
 		a.add().click();
 		Log.info("product2 is added in cart");
 		driver.quit();

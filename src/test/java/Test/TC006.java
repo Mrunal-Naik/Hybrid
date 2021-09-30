@@ -13,7 +13,7 @@ import pageObjects.TC006_PO;
 import resource.Browser;
 
 public class TC006 extends Browser {
-	public static Logger Log = LogManager.getLogger(TC005.class.getName());
+	public static Logger Log = LogManager.getLogger(TC006.class.getName());
 	@Test
 	public void gamingChair() throws IOException, InterruptedException {
 		driver = initializebrowser();

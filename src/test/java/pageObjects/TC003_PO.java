@@ -12,15 +12,15 @@ public WebDriver driver;
 	WebElement dining;
 	@FindBy(xpath="//li[@class='subnav_item 14976']")
 	WebElement glassware;
-	@FindBy(css="a[data-id='122547']")
+	@FindBy(css="a[data-id='112221']")
 	WebElement product1;
 	@FindBy(css="button[data-event='add_to_cart']")
 	WebElement addToCart;
 	@FindBy(css="a[class='continueshop']")
 	WebElement continueShopping;
-	@FindBy(css="a[data-id='122554']")
+	@FindBy(css="a[data-id='112214']")
 	WebElement product2;
-	@FindBy(css="button[data-sku='DNGLSG71ML10140']")
+	@FindBy(css="button[data-sku='DNGLDK71FTT1075']")
 	WebElement add;
 	
 	 public TC003_PO(WebDriver driver) {

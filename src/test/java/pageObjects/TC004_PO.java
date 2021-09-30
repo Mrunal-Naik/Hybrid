@@ -18,10 +18,12 @@ public WebDriver driver;
 	WebElement sorting;
 	@FindBy(xpath="//li[@data-key='price_desc']")
 	WebElement hightolow;
+	@FindBy(css="a[data-id='70564']")
+	WebElement hover1;
 	@FindBy(css="a[data-galabel='Fujiwara Bookshelf/Display Cabinet _FNSGDR11TK30101']")
 	WebElement product1;
 	@FindBy(css="a[data-id='107981']")
-	WebElement hover;
+	WebElement hover2;
 	@FindBy(css="a[data-galabel='Malabar Bookshelf/Display Cabinet _FNSGBR12MH10064']")
 	WebElement product2;
 	@FindBy(id="compare-cta")
@@ -50,12 +52,16 @@ public WebDriver driver;
 			return hightolow;
 		}
 		
+		public WebElement hover1(){
+			return hover1;
+		}
+		
 		public WebElement product1(){
 			return product1;
 		}
 		
-		public WebElement hover(){
-			return hover;
+		public WebElement hover2(){
+			return hover2;
 		}
 		
 		public WebElement product2(){

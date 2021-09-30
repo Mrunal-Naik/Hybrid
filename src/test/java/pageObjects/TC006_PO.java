@@ -16,7 +16,7 @@ public WebDriver driver;
 	WebElement searchbutton;
 	@FindBy(css="li[data-group='price']")
 	WebElement price;
-	@FindBy(css="input[id='price_limit_9722-9999']")
+	@FindBy(css="input[id='price_limit_25488-29059']")
 	WebElement limit;
 	@FindBy(css="span[class='results-count']")
 	WebElement count;

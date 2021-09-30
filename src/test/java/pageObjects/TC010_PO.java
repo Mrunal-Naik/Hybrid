@@ -20,7 +20,7 @@ public WebDriver driver;
 	WebElement product;
 	@FindBy(css="h1[itemprop='name']")
 	WebElement name;
-	@FindBy(css="meta[content='16499.0']")
+	@FindBy(css="meta[itemprop='price']")
 	WebElement price;
 	
 	

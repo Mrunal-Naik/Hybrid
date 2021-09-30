@@ -18,7 +18,7 @@ public WebDriver driver;
 	WebElement CeilingLights;
 	@FindBy(css="li[data-group='price']")
 	WebElement price;
-	@FindBy(css="input[id='price_limit_20431-25199']")
+	@FindBy(css="input[id='price_limit_48421-59999']")
 	WebElement limit;
 	@FindBy(css="div[class='results-count']")
 	WebElement number;
